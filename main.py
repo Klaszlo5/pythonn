@@ -15,5 +15,17 @@ def eredmeny(egy, ketto):
         return "Gép vesztett"
     else:
         return "Játékos vesztett"
+def teszt():
+    tesztek()
+def tesztek():
+    napok=[2,3,10]
+    jatekos=[20,3]
+    eredmeny="nyert"
+    kapott=eredmeny(napok,jatekos)
+    if kapott == eredmeny:
+        print("sikeres")
+    else:
+        print("nem sikerult")
+tesz()
 #megjegyzes
 
