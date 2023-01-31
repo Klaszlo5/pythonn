@@ -9,7 +9,11 @@ def eredmeny(egy, ketto):
     jatekos = pontok(ketto)
     for jatekos in range(napok):
         napok[jatekos] += napok[jatekos]
-    if napok > 21 and jatekos < 2:
-        print("napok jatekos")
+    if napok > 21 and jatekos > 21:
+        print("nyer")
+    elif napok > 21:
+        return "Gép vesztett"
+    else:
+        return "Játékos vesztett"
 #megjegyzes
 
