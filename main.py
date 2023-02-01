@@ -26,6 +26,11 @@ def tesztek():
         print("sikeres")
     else:
         print("nem sikerult")
-tesz()
+teszt()
+def lapok_osszege(lapok: [int]) -> int:
+    pontok: int = 0
+    for i in range(len(lapok)):
+        pontok += lapok[i]
+    return pontok
 #megjegyzes
 
