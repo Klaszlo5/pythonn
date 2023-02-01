@@ -27,10 +27,10 @@ def tesztek():
     else:
         print("nem sikerult")
 teszt()
-def lapok_osszege(lapok: [int]) -> int:
-    pontok: int = 0
-    for i in range(len(lapok)):
-        pontok += lapok[i]
-    return pontok
+def lapok_osszege(lap: [int]) -> int:
+    pts: int = 0
+    for i in range(len(lap)):
+        pts += lap[i]
+    return pts
 #megjegyzes
 
